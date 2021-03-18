@@ -1,0 +1,1 @@
+// use index.js to create associations between models
