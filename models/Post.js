@@ -3,9 +3,7 @@ const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
 // create Post model
-class Post extends Model {
-
-}
+class Post extends Model {}
 
 Post.init(
     {
@@ -19,11 +17,11 @@ Post.init(
           type: DataTypes.STRING,
           allowNull: false
         },
-        post_url: {
+        post_text: {
           type: DataTypes.STRING,
           allowNull: false,
           validate: {
-            isURL: true
+            len: [1]
           }
         },
         user_id: {

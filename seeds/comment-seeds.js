@@ -19,7 +19,7 @@ const commentdata = [
   {
     comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
     user_id: 3,
-    post_id: 18
+    post_id: 8
   },
   {
     comment_text: 'In hac habitasse platea dictumst.',
@@ -29,7 +29,7 @@ const commentdata = [
   {
     comment_text: 'Vivamus vestibulum sagittis sapien.',
     user_id: 1,
-    post_id: 20
+    post_id: 1
   },
   {
     comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
@@ -49,7 +49,7 @@ const commentdata = [
   {
     comment_text: 'Morbi a ipsum.',
     user_id: 6,
-    post_id: 20
+    post_id: 2
   },
   {
     comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
@@ -87,7 +87,7 @@ const commentdata = [
     comment_text:
       'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
     user_id: 2,
-    post_id: 20
+    post_id: 2
   },
   {
     comment_text: 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
@@ -151,7 +151,7 @@ const commentdata = [
   {
     comment_text: 'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
     user_id: 4,
-    post_id: 18
+    post_id: 13
   },
   {
     comment_text: 'Proin eu mi. Nulla ac enim.',
@@ -171,7 +171,7 @@ const commentdata = [
   {
     comment_text: 'Donec quis orci eget orci vehicula condimentum.',
     user_id: 3,
-    post_id: 19
+    post_id: 13
   },
   {
     comment_text: 'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
@@ -201,12 +201,12 @@ const commentdata = [
   {
     comment_text: 'Proin at turpis a pede posuere nonummy.',
     user_id: 8,
-    post_id: 19
+    post_id: 6
   },
   {
     comment_text: 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
     user_id: 9,
-    post_id: 19
+    post_id: 16
   },
   {
     comment_text:
@@ -239,7 +239,7 @@ const commentdata = [
   {
     comment_text: 'Integer ac leo. Pellentesque ultrices mattis odio.',
     user_id: 4,
-    post_id: 19
+    post_id: 14
   },
   {
     comment_text: 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
@@ -250,7 +250,7 @@ const commentdata = [
     comment_text:
       'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
     user_id: 2,
-    post_id: 19
+    post_id: 15
   },
   {
     comment_text: 'Proin risus. Praesent lectus.',
