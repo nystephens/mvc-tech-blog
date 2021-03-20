@@ -34,7 +34,7 @@ router.get('/', withAuth, (req, res) => {
 });
 
 // withAuth deleted for insomnia functionality
-router.get('/:id', (req, res) => {
+router.get('/:id', withAuth, (req, res) => {
   Post.findOne({
     where: {
       id: req.params.id
@@ -88,13 +88,12 @@ router.post('/', withAuth, (req, res) => {
 });
 
 // withAuth deleted for insomnia functionality
-router.put('/:id', (req, res) => {
+router.put('/:id', withAuth, (req, res) => {
   Post.update(
     {
       title: req.body.title,
       post_text: req.body.post_text
-    },
-    {
+    }, 
       where: {
         id: req.params.id
       }
