@@ -4,16 +4,16 @@
     <form class="new-post-form">
         <div>
             <label for="post-title">Title</label>
-            <input type="text" id="post-title" name="post-tile"/>
+            <input type="text" id="post-title" name="post-title"/>
         </div>
         <div>
-            <label for="post-text"></label>
-            <input id="post-text" name="post-text"/>
+            <label for="post-text">Text</label>
+            <textarea id="post-text" name="post-text"></textarea>
         </div>
         <button type="submit" class="btn">Create</button>
     </form>
 </section>
-{{#if post.length}}
+{{#if posts.length}}
 <section>
     <h2>Your Posts</h2>
     <ol>
