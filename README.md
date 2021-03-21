@@ -51,6 +51,24 @@ Now that your database and tables are created you can seed the database with the
 
 After your database is seeded with information you are able to view, edit, and make new posts using your local server.  To start the server type the command "npm start" into your terminal while in the root directory and navigate to http://localhost:3001/ in your browser.  This will take you to the hompeage and from there you can interact with the blog site.
 
+Here are some screenshots to demonstrate the functionality and show how the page is rendered:
+
+Homepage Logged Out:
+![Homepage Logged Out](./utils/screenshots/homepage-logged-out.png)
+
+Homepage Logged In:
+![Homepage Logged In](./utils/screenshots/homepage-loggedin.png)
+
+Dashboard:
+![Dashboard](./utils/screenshots/dashboard.png)
+
+Single Post with Comments:
+![Single Post with Comments](./utils/screenshots/single-post-with-comments.png)
+
+Edit Post:
+![Edit Post](./utils/screenshots/edit-post.png)
+
+
 ## License
 ![MIT license](https://img.shields.io/badge/license-MIT-brightgreen)
 [MIT license](https://opensource.org/licenses/MIT)
