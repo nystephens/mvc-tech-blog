@@ -12,7 +12,7 @@
 ## Description
 This is a basic CMS-style blog site that was created using the Model, View, Controller paradigm.  This site is currently hosted on Heroku at [Heroku Deployment](https://powerful-wave-29911.herokuapp.com/) and can also be run locally using the files located in the GitHub repository [Github](https://github.com/nystephens/mvc-tech-blog).  To learn how to run this server locally please continue reading the [Installation](#installation) and [Usage](#usage) sections.  
 
-This application was created using Node.js, express for the server, and sequelize to connect to a mysql database entitled "tech_blog_db".  All user, post, and comment data is stored in tech_blog_db.  The live app is currently deployed on Heroku, using the JAWSDB add on to store data.  All passwords have been encrypted using the bcrypt Node.js package.
+This application was created using Node.js, express for the server, and sequelize to connect to a mysql database entitled "tech_blog_db".  All user, post, and comment data is stored in tech_blog_db.  The live app is currently deployed on Heroku, using the JAWSDB add on to store data.  All passwords have been encrypted using the bcrypt Node.js package.  The HTML views templates are generated using Handlebars.js.
 
 ## Installation
 1.  Navigate to the GitHub repository ( https://github.com/nystephens/mvc-tech-blog) in your web browser and click the green dropdown menu that says “Code”.  Copy the SSH key to your clipboard and then open your terminal.  
@@ -49,7 +49,7 @@ Once your .env file is created you will be able to run the source command in mys
 
 Now that your database and tables are created you can seed the database with the mock info provided in the seeds folder.  In the terminal while located in the root directory run the command "npm run seed".
 
-After your database is seeded with information you are able to view, edit, and make new posts using your local server.  To do this navigate to http://localhost:3001/ in your browser.  This will take you to the hompeage and from there you can interact with the blog site as normal.
+After your database is seeded with information you are able to view, edit, and make new posts using your local server.  To start the server type the command "npm start" into your terminal while in the root directory and navigate to http://localhost:3001/ in your browser.  This will take you to the hompeage and from there you can interact with the blog site.
 
 ## License
 ![MIT license](https://img.shields.io/badge/license-MIT-brightgreen)
