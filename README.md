@@ -49,9 +49,9 @@ Once your .env file is created you will be able to run the source command in mys
 
 Now that your database and tables are created you can seed the database with the mock info provided in the seeds folder.  In the terminal while located in the root directory run the command "npm run seed".
 
-After your database is seeded with information you are able to view, edit, and make new posts using your local server.  To start the server type the command "npm start" into your terminal while in the root directory and navigate to http://localhost:3001/ in your browser.  This will take you to the hompeage and from there you can interact with the blog site.
+After your database is seeded with information you are able to view, edit, and make new posts using your local server.  To start the server type the command "npm start" into your terminal while in the root directory and navigate to http://localhost:3001/ in your browser.  This will take you to the hompeage and from there you can interact with the blog site.  To view the application in its current deployed environment visit [Heroku Deployment](https://powerful-wave-29911.herokuapp.com/)
 
-Here are some screenshots to demonstrate the functionality and show how the page is rendered:
+Here are some screenshots to demonstrate the functionality and show how the page is rendered.
 
 Homepage Logged Out:
 ![Homepage Logged Out](./utils/screenshots/homepage-logged-out.png)
